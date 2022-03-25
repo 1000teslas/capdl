@@ -7,7 +7,7 @@
 from __future__ import absolute_import, division, print_function, \
     unicode_literals
 
-from capdl.Object import Object, Frame, CNode, Endpoint, Notification, SchedControl
+from .Object import Object, Frame, CNode, Endpoint, Notification, SchedControl
 
 
 class Cap(object):

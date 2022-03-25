@@ -20,7 +20,7 @@ from .Object import Frame, PageTable, PageDirectory, CNode, Endpoint, \
     ARMIODevice, VCPU, ASIDPool, SC, SchedControl, RTReply, ObjectType, \
     ObjectRights, IOAPICIRQ, MSIIRQ, IRQControl, get_object_size, ASIDControl, \
     DomainControl, is_aligned, ARMIRQMode, ARMIRQ, ContextBank, StreamID
-from capdl.util import ctz
+from .util import ctz
 from .Spec import Spec
 
 
